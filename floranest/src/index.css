@@ -1,0 +1,33 @@
+
+:root {
+  font-family: Arial, sans-serif;
+  color: #263b2b;
+  background: #fffdf8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /* Removed min-width: 320px — it forced horizontal scroll on the admin layout.
+     The admin wrapper handles its own width constraints internally. */
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  /* Removed min-width: 320px — same reason as above */
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
